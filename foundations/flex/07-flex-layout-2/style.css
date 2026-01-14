@@ -38,12 +38,22 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-shrink: 0;
+  padding: 16px;
+}
+
+.container {
+  padding: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  width: 300px;
 }
 
 a {
@@ -54,8 +64,10 @@ a {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
