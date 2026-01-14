@@ -45,3 +45,17 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 16px;
+}
